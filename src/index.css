@@ -1,0 +1,73 @@
+:root {
+  background-color: grey;
+  font-family: "Special Elite";
+  background-image: url("./assets/eclipse.jpg");
+  background-color: #990000;
+  background-size: cover;
+  font-weight: bold;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: "Nosifer";
+  font-size: 2.5em;
+  color: #990000;
+  text-shadow: 0 0 3px #340000, 0 0 5px #670000;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.taskInput {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Special Elite";
+}
+
+.addTaskButton {
+  border-radius: 5px;
+  font-family: "Special Elite";
+}
+
+.tasksContainer {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  border: 1px solid;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 5px;
+  margin-right: 20px;
+  padding: 15px;
+  background-color:#990000;
+  background: linear-gradient(0.25turn, #670000, #340000);
+  min-width: 500px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.buttonContainer button {
+  margin: 0 5px;
+  padding: 5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+

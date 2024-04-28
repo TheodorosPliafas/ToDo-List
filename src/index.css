@@ -1,10 +1,11 @@
 :root {
-  background-color: grey;
   font-family: "Special Elite";
   background-image: url("./assets/eclipse.jpg");
   background-color: #990000;
   background-size: cover;
   font-weight: bold;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 
@@ -44,7 +45,7 @@ li {
   margin: 5px;
   margin-right: 20px;
   padding: 15px;
-  background-color:#990000;
+  /*background-color:#990000;*/
   background: linear-gradient(0.25turn, #670000, #340000);
   min-width: 500px;
   width: auto;

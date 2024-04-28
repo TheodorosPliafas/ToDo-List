@@ -61,7 +61,7 @@ function TodoList() {
 
     return(
         <>    
-                <button onClick={startAudio}>🎵</button>
+                <button className="audioButton" onClick={startAudio}>🎵</button>
                 <h2>Todo List</h2>
                 <div className="drop"></div>
                 <div className="wave"></div>

@@ -3,10 +3,13 @@
   background-image: url("./assets/eclipse.jpg");
   background-color: #990000;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   font-weight: bold;
   min-height: 100vh;
   min-width: 100vw;
 }
+
 
 
 h2 {
@@ -44,7 +47,7 @@ li {
   border-radius: 5px;
   list-style-type: none;
   margin: 5px;
-  margin-right: 20px;
+  margin-right: 45px;
   padding: 15px;
   background: linear-gradient(0.25turn, #670000, #340000);
   min-width: 25vw;
